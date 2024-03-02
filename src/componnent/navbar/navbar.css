@@ -1,0 +1,127 @@
+.navbar .header{
+    width: 100%;
+    height: 60px;
+    background-color: #101010;
+    position: relative;
+    display: flex;
+}
+.ul{
+    display: list-item;
+    list-style-type: none;
+}
+.navbar .header ul .brand{
+    position: absolute;
+    font-size: 30px;
+    color: red;
+    top: 10px;
+    left: 70px;
+}
+.navbar .header ul .icon{
+    position: absolute;
+    font-size: 30px;
+    color: #fff;
+    top: 10px;
+    left: 10px;
+}
+.navbar .header ul .brand-text{
+    position: absolute;
+    top: 13px;
+    left: 105px;
+    height: 30px;
+    width: 100px;
+    color: #fff;
+    font-weight: lighter;
+    font-family: fantasy;
+    font-size: 20px;
+}
+.navbar .header ul span{
+    position: absolute;
+    top: -2px;
+    left: 74px;
+    font-size: small;
+    color: gray;
+    font-weight: lighter;
+    font-family: fantasy;
+}
+.navbar .header ul .serch-div{
+    position: absolute;
+    top: 10px;
+    left: 340px;
+    background-color: rgb(34, 33, 33);
+    width: 630px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+}
+.navbar .header ul .serch-div .serch{
+    width: 550px;
+    height: 38px;
+    background-color: #101010;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-top: 1px;
+    margin-left: 1px;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    padding-left: 30px;
+}
+.navbar .header ul .serch-div .serch:focus{
+    border: none;
+}
+.navbar .header ul .serch-div .icon-1{
+    margin-left: 30px;
+    font-size: 20px;
+    font-weight: lighter;
+    color: #fff;
+}
+.navbar .header ul .voice{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: rgb(34, 33, 33);
+    left: 980px;
+    top: 10px;
+    color: #fff;
+    padding-top: 7px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+.navbar .header ul .create{
+    position: absolute;
+    right: 150px;
+    top: 20px;
+    color: #fff;
+    font-size: 23px;
+}
+.navbar .header ul .bell{
+    position: absolute;
+    right: 100px;
+    top: 20px;
+    color: #fff;
+    font-size: 23px;
+}
+.navbar .header ul .noti{
+    position: absolute;
+    top: 15px;
+    color:#fff;
+    left: 1183px;
+    background-color: #c51414;
+    width: 25px;
+    height: 20px;
+    border-radius: 20px;
+    padding-left: 5px;
+    padding-top: 2px;
+}
+.navbar .header ul .noti h4{
+    font-size: 11px;
+}
+.navbar .header ul .image{
+    position: absolute;
+    right: 40px;
+    top: 15px;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}

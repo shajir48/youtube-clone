@@ -1,0 +1,114 @@
+.section{
+    background-color: #101010;
+    width: 1037px;
+    height: 545px;
+    position: relative;
+    float: left;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    scrollbar-width: none;
+}
+.section .sec-con{
+    height: 545px;
+    width: 1022px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.section .sec-con .container{
+    width: 100%;
+    height: 275px;
+    background-color: transparent;
+    top: 10px;
+    overflow-y: hidden;
+}
+.section .sec-con .container .videos{
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 346px;
+    height: 273px;
+}
+.section .sec-con .container .videos .video-con{
+    display: flex;
+    flex-wrap: wrap;
+    width: 334px;
+    height: 275px;
+    margin-left: 20px;
+    border-radius: 10px;
+    margin: 5px;
+}
+.section .sec-con .container .videos .video-con .video{
+    display: flex;
+    flex-wrap: wrap;
+    width: 334px;
+    height: 187px;
+    margin-left: 20px;
+    border-radius: 10px;
+    margin: 5px;
+    vertical-align: middle;
+    display: inline-block;
+}
+.section .sec-con .container .videos .video-con h3{
+    color: #fff;
+    font-size: 14px;
+}
+
+  /* after click */
+  .section1{
+    background-color: #101010;
+    width: 1222px;
+    height: 545px;
+    position: relative;
+    float: left;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    scrollbar-width: none;
+}
+.section1 .sec-con{
+    height: 545px;
+    width: 1222px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.section1 .sec-con .container{
+    width: 100%;
+    height: 275px;
+    background-color: transparent;
+    top: 10px;
+    overflow-y: hidden;
+}
+.section1 .sec-con .container .videos{
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 408px;
+    height: 290px;
+}
+.section1 .sec-con .container .videos .video-con{
+    display: flex;
+    flex-wrap: wrap;
+    width: 334px;
+    height: 275px;
+    margin-left: 20px;
+    border-radius: 10px;
+    margin: 5px;
+}
+.section1 .sec-con .container .videos .video-con .video{
+    display: flex;
+    flex-wrap: wrap;
+    width: 334px;
+    height: 187px;
+    margin-left: 20px;
+    border-radius: 10px;
+    margin: 5px;
+    vertical-align: middle;
+    display: inline-block;
+}
+.section1 .sec-con .container .videos .video-con h3{
+    color: #fff;
+    font-size: 14px;
+}
+
+  

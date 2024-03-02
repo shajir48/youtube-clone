@@ -1,0 +1,132 @@
+.container {
+    overflow-x: hidden;
+    white-space: nowrap;
+    width: 1037px;
+    background-color: #101010;
+    height: 46px;
+    float: left;
+    display: flex;
+    position: relative;
+    height: 43px;
+  }
+  
+  .nav {
+    width: 100%;
+    height: 100%;
+  }
+  .con-nav{
+    width: 93%;
+    display: flex;
+    align-items: center;
+    overflow-x: auto;
+    scrollbar-width: none; 
+    -ms-overflow-style: none;
+    height: 41px;
+    margin-left: -10px; 
+  }
+  
+  .nav::-webkit-scrollbar {
+    display: none; 
+  }
+  .connav {
+    display: flex;
+    margin: 10px;
+  }
+  
+  .but {
+    width: auto;
+    color: #fff;
+    font-size: 15px;
+    background-color: #262525;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 0 5px;
+    white-space: nowrap;
+    border: 1px solid #202020;
+    padding: 3px 20px;
+    height: 36px;
+  }
+  .but-1 {
+    width: auto;
+    color: #000;
+    font-size: 15px;
+    background-color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 0 5px;
+    white-space: nowrap;
+    border: 1px solid #202020;
+    padding: 3px 20px;
+    height: 36px;
+  }
+  
+/* after click*/
+.container1 {
+  overflow-x: hidden;
+  white-space: nowrap;
+  width: 1222px;
+  background-color: #101010;
+  height: 46px;
+  float: left;
+  display: flex;
+  position: relative;
+  height: 43px;
+}
+
+.container1 .nav {
+  width: 100%;
+  height: 100%;
+}
+.container1 .nav .con-nav{
+  width: 93%;
+  display: flex;
+  align-items: center;
+  overflow-x: auto;
+  scrollbar-width: none; 
+  -ms-overflow-style: none;
+  height: 41px;
+  margin-left: -10px; 
+}
+
+.nav::-webkit-scrollbar {
+  display: none; 
+}
+.connav {
+  display: flex;
+  margin: 10px; /* Adjust margin as needed */
+}
+
+.but {
+  width: auto;
+  color: #fff;
+  font-size: 15px;
+  background-color: #262525;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 0 5px;
+  white-space: nowrap;
+  border: 1px solid #202020;
+  padding: 3px 20px;
+  height: 36px;
+}
+.but-1 {
+  width: auto;
+  color: #000;
+  font-size: 15px;
+  background-color: #fff;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 0 5px;
+  white-space: nowrap;
+  border: 1px solid #202020;
+  padding: 3px 20px;
+  height: 36px;
+}
+.nav-icon-rg{
+  left: 0;
+  background: linear-gradient(90deg,red 70%, transparent);
+}
+.nav-icon-lt{
+  right: 0;
+  background: linear-gradient(-90deg,red 70%, transparent);
+}
