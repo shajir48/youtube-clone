@@ -1,6 +1,6 @@
 import React from "react";
 import "./section.css"
-
+// 
 
 function Section({ slide }){
    
